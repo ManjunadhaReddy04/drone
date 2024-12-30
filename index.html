@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>WhatsApp Group Adder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Bulk Add Group Members</h2>
+            <button class="upload-btn">Upload Numbers Excel</button>
+            <div class="numbers-list" id="numbersList"></div>
+        </div>
+
+        <div class="box">
+            <h3>Delay Settings</h3>
+            <div class="settings">
+                <div class="setting-row">
+                    <input type="checkbox" checked>
+                    <span>Wait</span>
+                    <input type="number" value="10" class="small-input">
+                    <span>to</span>
+                    <input type="number" value="20" class="small-input">
+                    <span>seconds after every</span>
+                    <input type="number" value="10" class="small-input">
+                    <span>Number Add</span>
+                </div>
+                <div class="setting-row">
+                    <input type="checkbox" checked>
+                    <span>Wait</span>
+                    <input type="number" value="4" class="small-input">
+                    <span>to</span>
+                    <input type="number" value="8" class="small-input">
+                    <span>seconds before every Number Check</span>
+                </div>
+                <div class="setting-row">
+                    <input type="checkbox" id="inviteCheck">
+                    <span>Send Group Invitation code if fail</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <button class="init-btn">CLICK TO INITIATE</button>
+            <div class="control-btns">
+                <button class="start-btn">START</button>
+                <button class="pause-btn">PAUSE</button>
+                <button class="stop-btn">STOP</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

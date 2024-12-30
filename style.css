@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.upload-btn {
+    background: #22c55e;
+}
+
+.numbers-list {
+    border: 1px solid #ddd;
+    min-height: 200px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.setting-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.small-input {
+    width: 60px;
+    padding: 4px;
+}
+
+.control-btns {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.init-btn {
+    background: #16a34a;
+}
+
+.start-btn {
+    background: #22c55e;
+}
+
+.pause-btn {
+    background: #eab308;
+}
+
+.stop-btn {
+    background: #ef4444;
+}
